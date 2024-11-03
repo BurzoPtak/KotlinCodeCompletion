@@ -1,0 +1,13 @@
+I created app based on  granite-3b-code-base
+
+Firstly I wrote code that converts provided code exercises from python to kotlin using chatgpt API.
+Then I tried fine tuning with slowed learning rate and without cuda (due to gpu malfunction) and only on 100 samples.
+After that mxeval library needed to be adjusted by adding utf-8 encoding and adding shell-True parameter in subprocess.
+Finally I created functions that evaluate and vizualize it on graph.
+
+Results:
+Sadly fine-tuning went poorly it is due to lacking samples in training dataset so model became to biased towards examples provided in the dataset
+however the metod itself works fine and I believe with bigger dataset fine tuning would help model or at least stay on similar level.
+
+Dataset:
+You do not need to filter dataset
