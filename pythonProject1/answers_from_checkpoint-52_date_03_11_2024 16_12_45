@@ -1,0 +1,161 @@
+{"task_id": "HumanEval_kotlin/32", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/74", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/160", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/88", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/89", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/119", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/3", "completion": "var balance = 0\nfor (operation in operations) {\nbalance += operation\nif (balance < 0) return true\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/84", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/17", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/57", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/87", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/34", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/21", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/42", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/27", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/141", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/98", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/75", "completion": "\tvar count = 0\n\tfor (i in num.indices) {\n\t\tval digit = num[i]\n\t\tif (digit == '2' || digit == '3' || digit == '5' || digit == '7' || digit == 'B' || digit == 'D') {\n\t\t\tcount++\n\t\t}\n\t}\n\treturn count\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/92", "completion": "\tvar result = true\n\tfor (key in dict.keys) {\n\t\tif (key is String) {\n\t\t\tif (key.toUpperCase()!= key) {\n\t\t\t\tresult = false\n\t\t\t\tbreak\n\t\t\t}\n\t\t} else {\n\t\t\tresult = false\n\t\t\tbreak\n\t\t}\n\t}\n\treturn result\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/4", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/62", "completion": "\tval digits = x.toString().toCharArray()\n\tval result = mutableListOf<Char>()\n\tfor (i in digits.indices) {\n\t\tresult.add(digits[(i + shift) % digits.size])\n\t}\n\treturn result.joinToString(\"\")\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/43", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/128", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/129", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/46", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/93", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/90", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/150", "completion": "\tvar maxStrength = 0\n\tvar maxStrengthExtension = \"\"\n\tfor (extension in extensions) {\n\t\tvar strength = 0\n\t\tfor (i in 0 until extension.length) {\n\t\t\tif (extension[i].isUpperCase()) {\n\t\t\t\tstrength += 1\n\t\t\t} else {\n\t\t\t\tstrength -= 1\n\t\t\t}\n\t\t}\n\t\tif (strength > maxStrength) {\n\t\t\tmaxStrength = strength\n\t\t\tmaxStrengthExtension = extension\n\t\t}\n\t}\n\treturn className + \".\" + maxStrengthExtension\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/40", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/51", "completion": "\tval s0Chars = s0.toCharArray()\n\tval s1Chars = s1.toCharArray()\n\tval s0CharsSet = HashSet<Char>()\n\tval s1CharsSet = HashSet<Char>()\n\tfor (i in s0Chars.indices) {\n\t\ts0CharsSet.add(s0Chars[i])\n\t}\n\tfor (i in s1Chars.indices) {\n\t\ts1CharsSet.add(s1Chars[i])\n\t}\n\treturn s0CharsSet == s1CharsSet\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/99", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/65", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/158", "completion": "var result = \"\"\nfor (i in s.indices) {\n    if (s[i].isLetter()) {\n        if (s[i].isLowerCase()) {\n            result += s[i].toUpperCase()\n        } else {\n            result += s[i].toLowerCase()\n        }\n    } else {\n        result += s[i]\n    }\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/106", "completion": "var i = 0\nvar j = 0\nvar k = 0\nvar temp = 0\nvar count = 0\nvar flag = true\nwhile (i < arr.size) {\nif (arr[i] == 0) {\ni++\n} else {\nwhile (j < arr.size && arr[j]!= 0) {\nj++\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/58", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/67", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/154", "completion": "\treturn (a*a + b*b == c*c)\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/113", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/124", "completion": "\tval start = max(interval1[0], interval2[0])\n\tval end = min(interval1[1], interval2[1])\n\treturn if (start > end) \"NO\" else if (isPrime(end - start + 1)) \"YES\" else \"NO\"\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/71", "completion": "var total = 0\nvar total2 = 0\nvar total3 = 0\nvar total4 = 0\nvar total5 = 0\nvar total6 = 0\nvar total7 = 0\nvar total8 = 0\nvar total9 = 0\nvar total10 = 0\nvar total11 = 0\nvar total12 = 0\nvar total13 = 0\nvar total14 = 0\nvar total15 = 0\nvar total16 = 0\nvar total17 = 0\nvar total18 = 0\nvar total19 = 0\nvar total20 = 0\nvar total21 = 0\nvar total22 = 0\nvar total23 = 0\nvar total24 = 0\nvar total25 = 0\nvar total26 = 0\nvar total27 = 0\nvar total28 = 0\nvar total29 = 0\nvar total30 = 0\nvar total31 = 0\nvar total32 = 0\nvar total33 = 0\nvar total", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/0", "completion": "\tvar result = false\n\tfor (i in 0 until numbers.size) {\n\t\tfor (j in i + 1 until numbers.size) {\n\t\t\tif (numbers[i] - numbers[j] < threshold) {\n\t\t\t\tresult = true\n\t\t\t}\n\t\t}\n\t}\n\treturn result\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/100", "completion": "\tif (n > m) return \"-1\"\n\tval sum = (n + m) * (m - n + 1) / 2\n\tval avg = sum / (m - n + 1)\n\treturn Integer.toBinaryString(avg)\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/70", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/81", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/78", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/54", "completion": "\tvar isMonotonic = true\n\tvar isDecreasing = false\n\tfor (i in 1 until l.size) {\n\t\tif (l[i] > l[i - 1]) {\n\t\t\tisMonotonic = true\n\t\t} else {\n\t\t\tisMonotonic = false\n\t\t\tisDecreasing = true\n\t\t}\n\t}\n\treturn isMonotonic || isDecreasing\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/94", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/79", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/140", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/127", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/133", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/18", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/159", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/118", "completion": "var sum = 0\nfor (i in 0 until lst.size) {\n    if (i % 2 == 0 && lst[i] % 2!= 0) {\n        sum += lst[i]\n    }\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/33", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/153", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/123", "completion": "\tvar sorted = true\n\tvar i = 0\n\twhile (i < lst.size - 1 && sorted) {\n\t\tif (lst[i] > lst[i + 1]) {\n\t\t\tsorted = false\n\t\t}\n\t\ti++\n\t}\n\treturn sorted\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/20", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/53", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/130", "completion": "var sum = 0\nfor (i in lst) {\n    sum += Math.pow(Math.ceil(i), 2)\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/39", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/13", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/104", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/56", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/1", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/66", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/151", "completion": "\tvar a = a\n\tvar b = b\n\tvar i = 0\n\tvar j = 0\n\tvar k = 0\n\tvar l = 0\n\tvar m = 0\n\tvar n = 0\n\tvar o = 0\n\tvar p = 0\n\tvar q = 0\n\tvar r = 0\n\tvar s = 0\n\tvar t = 0\n\tvar u = 0\n\tvar v = 0\n\tvar w = 0\n\tvar x = 0\n\tvar y = 0\n\tvar z = 0\n\tvar a1 = 0\n\tvar b1 = 0\n\tvar c1 = 0\n\tvar d1 = 0\n\tvar e1 = 0\n\tvar f1 = 0\n\tvar g1 = 0\n\tvar h1 = 0\n\tvar i1 = 0\n\tvar j1 = 0\n\tvar k1 = 0\n\tvar l1 = 0\n\tvar m1 = 0\n\tvar n1 = 0\n\tvar o1 = ", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/122", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/5", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/142", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/48", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/155", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/125", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/149", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/139", "completion": "var sum = 0\nfor (i in 0 until lst.size) {\nif (i % 3 == 0) {\nsum += lst[i] * lst[i]\n} else if (i % 4 == 0) {\nsum += lst[i] * lst[i] * lst[i]\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/131", "completion": "\treturn txt.last().isLetter() &&!txt.last().isLetterOrDigit()\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/156", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/41", "completion": "\tfor (i in 0 until l.size) {\n\t\tfor (j in i + 1 until l.size) {\n\t\t\tif (l[i] + l[j] == 0) {\n\t\t\t\treturn true\n\t\t\t}\n\t\t}\n\t}\n\treturn false\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/110", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/28", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/114", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/45", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/116", "completion": "\tvar open = 0\n\tvar close = 0\n\tfor (i in 0 until lst.size) {\n\t\tfor (j in 0 until lst[i].length) {\n\t\t\tif (lst[i][j] == '(') {\n\t\t\t\topen++\n\t\t\t} else {\n\t\t\t\tclose++\n\t\t\t}\n\t\t}\n\t}\n\treturn if (open == close) \"Yes\" else \"No\"\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/147", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/117", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/109", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/112", "completion": "\tvar result = 0\n\tfor (i in 0 until grid.size) {\n\t\tfor (j in 0 until grid[i].size) {\n\t\t\tif (grid[i][j] == 1) {\n\t\t\t\tresult += capacity - (i + j)\n\t\t\t}\n\t\t}\n\t}\n\treturn result\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/55", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/36", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/68", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/60", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/101", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/19", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/97", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/126", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/134", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/136", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/7", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/47", "completion": "\tvar result = 1\n\tvar i = 0\n\twhile (i < n) {\n\t\tresult = result * 2 % p\n\t\ti++\n\t}\n\treturn result\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/8", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/25", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/69", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/52", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/6", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/73", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/83", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/22", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/26", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/105", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/35", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/30", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/80", "completion": "\treturn if (n == 1) 1 else 10 * (pow(10.0, n - 1.0) - 1.0) + 1\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/11", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/2", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/138", "completion": "\tval fileNameArray = fileName.split(\".\")\n\tval fileNameArrayLength = fileNameArray.size\n\tval fileNameArrayLengthMinusOne = fileNameArrayLength - 1\n\tval fileNameArrayLengthMinusTwo = fileNameArrayLength - 2\n\tval fileNameArrayLengthMinusThree = fileNameArrayLength - 3\n\tval fileNameArrayLengthMinusFour = fileNameArrayLength - 4\n\tval fileNameArrayLengthMinusFive = fileNameArrayLength - 5\n\tval fileNameArrayLengthMinusSix = fileNameArrayLength - 6\n\tval fileNameArrayLengthMinusSeven = fileNameArrayLength - 7\n\tval fileNameArrayLengthMinusEight = fileNameArrayLength - 8\n\tval fileNameArrayLengthMinusNine = fileNameArrayLength - 9\n\tval fileNameArrayLengthMinusTen = fileNameArrayLength - 10\n\tval fileNameArrayLengthMinusEleven = fileNameArrayLength - 11\n\tval fileNameArrayLengthMinusTwelve = fileNameArrayLength - 12\n\tval fileNameArrayLengthMinusThirteen = fileNameArrayLength - 13\n\tval fileNameArrayLengthMinusFourteen = fileNameArrayLength - 14\n\tval fileNameArrayLengthMinusFifteen = fileName", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/37", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/24", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/145", "completion": "val planets = listOf(\"Mercury\", \"Venus\", \"Earth\", \"Mars\", \"Jupiter\", \"Saturn\", \"Uranus\", \"Neptune\")\nval planet1Index = planets.indexOf(planet1)\nval planet2Index = planets.indexOf(planet2)\nval result = mutableListOf<String>()\nvar i = planet1Index\nvar j = planet2Index\nwhile (i!= j) {\nif (i < j) {\ni++\n} else {\nj--\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/120", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/76", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/15", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/107", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/16", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/61", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/115", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/111", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/82", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/49", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/29", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/144", "completion": "\tvar count = 0\n\tfor (i in 1..n) {\n\t\tfor (j in i+1..n) {\n\t\t\tfor (k in j+1..n) {\n\t\t\t\tif ((i*i - i + 1 + j*j - j + 1 + k*k - k + 1) % 3 == 0) {\n\t\t\t\t\tcount++\n\t\t\t\t}\n\t\t\t}\n\t\t}\n\t}\n\treturn count\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/86", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/23", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/135", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/72", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/59", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/10", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/103", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/108", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/146", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/38", "completion": "\tval set = mutableSetOf<Int>()\n\tfor (i in l) {\n\t\tif (set.contains(-i)) return true\n\t\tset.add(i)\n\t}\n\treturn false\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/143", "completion": "var count = 0\nfor (i in nums) {\nif (i > 10 && (i % 2!= 0 && i % 10!= 0)) {\ncount++\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/132", "completion": "\tvar max = 0\n\tvar maxIndex = 0\n\tfor (i in 1 until arr.size) {\n\t\tif (arr[i] > arr[i - 1]) {\n\t\t\tmax = arr[i]\n\t\t\tmaxIndex = i\n\t\t}\n\t}\n\treturn if (maxIndex == 0) -1 else maxIndex\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/12", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/31", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/102", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/64", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/157", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/96", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/44", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/63", "completion": "var sum = 0\nfor (i in s.indices) {\nif (s[i].isUpperCase()) {\nsum += s[i].code\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/14", "completion": "}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/95", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/9", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/152", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/50", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/85", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/91", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/148", "completion": "\tvar sum = 0\n\tfor (i in lst) {\n\t\tif (i is Int && i % 2!= 0) {\n\t\t\tsum += i * i\n\t\t}\n\t}\n\treturn sum\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/121", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/137", "completion": "\n}\n", "language": "kotlin"}
+{"task_id": "HumanEval_kotlin/77", "completion": "\n}\n", "language": "kotlin"}
