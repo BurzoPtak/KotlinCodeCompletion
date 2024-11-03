@@ -54,11 +54,11 @@ while True:
         if ch2 == "y":
             prompt_data = input("Please enter your data containing prompts should be [prompt] dict")
             language = input("please specify language to which it should be translated")
-            fine_tuned_model_path = input("Please specify path to your model")
+            model_path = input("Please specify path to your model")
             device = input("cuda for GPU or cpu ")
             generate_data(prompt_data,language,fine_tuned_model_path,device)
         else:
-            generate_data(prompt_data,language,fine_tuned_model_path,device)
+            generate_data(prompt_data,language,model_path,device)
 
     if choice == "3":
         ch2 = input("would you like to change parameters from default?")
