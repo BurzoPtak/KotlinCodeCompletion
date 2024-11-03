@@ -10,3 +10,9 @@ git clone https://github.com/amazon-science/mxeval.git
 pip install -e mxeval
 
 -accelerate > 0.26
+
+changes in mxeval:
+file: execution.py
+line 505 add shell = True to subprocess parameters
+line 501 add encoding='utf-8'
+
