@@ -44,7 +44,7 @@ while True:
         if ch2 == "y":
             api_key = input("please specify your api key")
             language = input("please specify language")
-            ds_conversion = input("please specify dataset to convert it should have problem-solution dictionary")
+            k = input("ds_conversion was implemented directly in the code press anything to continue")
             data_conversion(api_key, language, ds_conversion)
         else:
             data_conversion(api_key,language,ds_conversion)
@@ -64,7 +64,7 @@ while True:
         ch2 = input("would you like to change parameters from default?")
         if ch2 == "y":
             fine_tuning_data = input("specify path for generated answers")
-            ds_fine_tune = input("specify path to data containing prompt (original untranslated data)")
+            k = input("ds_fine_tune was implemented directly in the code press anything to continue")
             model_path = input("specify path to core model")
             model_name = input("name your model :)")
             fine_tune(fine_tuning_data,ds_fine_tune,model_path,model_name)
